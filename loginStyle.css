@@ -1,0 +1,60 @@
+body{
+    background-image: url(bgimage.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    border-radius: 0 !important;
+}
+
+.container{
+    margin-top: 6%; 
+}
+
+.card-body{
+    background-color: rgba(245, 245, 245, 0.5);
+    border-radius:15px!important;
+    padding: 7% 13% 10% 13%;
+}
+
+.card-title{
+    margin-top: 2%;
+    margin-bottom: 10%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    color: teal;
+}
+.inputbox{
+    margin: 5% 0% 5% 0%;
+}
+
+.form-control{
+    border-radius: 5rem;
+    border-color: teal;
+    font-size: 20px;
+    padding: 5%;
+}
+
+.btn {
+    margin: 17% 0% 15% 0%;
+    background-color: teal;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 80%;
+    border-color: teal;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    padding: 4%;
+    transition: all 0.2s;
+}
+
+#user {
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 5%;
+    font-size: 25px;
+    text-align: center;
+}
+
+#admin{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
